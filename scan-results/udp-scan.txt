@@ -1,0 +1,28 @@
+# Nmap 7.99 scan initiated Mon Sep 21 02:24:14 2026 as: /usr/lib/nmap/nmap -sU --top-ports 20 -oN scan-results/udp-scan.txt 192.168.56.102
+Nmap scan report for 192.168.56.102
+Host is up (0.00048s latency).
+
+PORT      STATE         SERVICE
+53/udp    open|filtered domain
+67/udp    closed        dhcps
+68/udp    open|filtered dhcpc
+69/udp    closed        tftp
+123/udp   closed        ntp
+135/udp   closed        msrpc
+137/udp   closed        netbios-ns
+138/udp   closed        netbios-dgm
+139/udp   open|filtered netbios-ssn
+161/udp   open|filtered snmp
+162/udp   closed        snmptrap
+445/udp   closed        microsoft-ds
+500/udp   open|filtered isakmp
+514/udp   closed        syslog
+520/udp   open|filtered route
+631/udp   open|filtered ipp
+1434/udp  closed        ms-sql-m
+1900/udp  open|filtered upnp
+4500/udp  open|filtered nat-t-ike
+49152/udp open|filtered unknown
+MAC Address: 08:00:27:A6:F2:75 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Mon Sep 21 02:24:22 2026 -- 1 IP address (1 host up) scanned in 8.26 seconds
